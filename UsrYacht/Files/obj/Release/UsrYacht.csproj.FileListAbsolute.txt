@@ -1,0 +1,10 @@
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\Bin\UsrYacht.dll
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\Bin\UsrYacht.pdb
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.csproj.AssemblyReference.cache
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.GeneratedMSBuildEditorConfig.editorconfig
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.AssemblyInfoInputs.cache
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.AssemblyInfo.cs
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.csproj.CoreCompileInputs.cache
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.sourcelink.json
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.dll
+C:\Academy\Build\ALH1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrYacht\Files\obj\Release\UsrYacht.pdb

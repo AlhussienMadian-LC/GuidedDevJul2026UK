@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "1dea9b69-f69c-3623-e703-d2f6f63c4da7",
     "Name": "UsrTrafficLight",
-    "ModifiedOnUtc": "\/Date(1784355500000)\/",
+    "ModifiedOnUtc": "\/Date(1784363900000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "a71a3679-27c7-453e-aa07-882cd65f010c",
@@ -11,21 +11,21 @@
     "Columns": [
       {
         "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-        "IsForceUpdate": false,
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "Name",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       },
       {
         "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
-        "IsForceUpdate": false,
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "ModifiedOn",
         "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
       },
       {
         "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
-        "IsForceUpdate": false,
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "Description",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
@@ -39,7 +39,7 @@
       },
       {
         "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
-        "IsForceUpdate": false,
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "CreatedOn",
         "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
