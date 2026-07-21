@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0319409d-eee4-43a6-ba76-be0fd2308ea3",
+    "Name": "UsrYacht_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1784517645000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yacht form page (Business rules)",
+    "DependsOn": []
+  }
+}
