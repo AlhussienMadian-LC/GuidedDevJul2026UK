@@ -37,5 +37,23 @@ namespace Terrasoft.Configuration
         {
             return "OK!";
         }
+        [OperationContract]
+        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Wrapped,
+            RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        public decimal GetAvgPriceByDriveTypeId(string driveTypeId)
+        {
+            if (string.IsNullOrEmpty(driveTypeId))
+            {
+                return -1;
+            }
+            Select select = new Select(UserConnection)
+                .Column(Func.Avg("UsrPrice"))
+                .From("UsrYacht")
+                .Where("UsrDriveTypeId").IsEqual(Column.Parameter(new Guid(driveTypeId)))
+                .And("UsrStatusId").IsEqual(Column.Parameter(new Guid("0ea81c7e-7ec3-4b38-b874-fe8baea9f666"))) // 1. Operational status Id
+                as Select;
+            decimal result = select.ExecuteScalar<decimal>();
+            return result;
+        }
     }
 }

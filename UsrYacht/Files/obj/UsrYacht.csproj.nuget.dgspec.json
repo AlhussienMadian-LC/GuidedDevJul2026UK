@@ -5,19 +5,19 @@
   },
   "projects": {
     "C:\\Academy\\Build\\ALH1DEV\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrYacht\\Files\\UsrYacht.csproj": {
-      "version": "1.0.0",
+      "version": "8.3.2.4199",
       "restore": {
         "projectUniqueName": "C:\\Academy\\Build\\ALH1DEV\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrYacht\\Files\\UsrYacht.csproj",
         "projectName": "UsrYacht",
         "projectPath": "C:\\Academy\\Build\\ALH1DEV\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrYacht\\Files\\UsrYacht.csproj",
-        "packagesPath": "C:\\Users\\madia\\.nuget\\packages\\",
+        "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_CR1DEV\\Default\\dotnet\\.nuget\\packages\\",
         "outputPath": "C:\\Academy\\Build\\ALH1DEV\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrYacht\\Files\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\madia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_CR1DEV\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -11,7 +11,7 @@
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Set column values" />
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Created record Id" />
-			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="N &gt; 0" />
+			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="N &gt; 0" />
 			<Item Name="BaseElements.FormulaTask1.Caption" Value="N = N - 1  " />
 			<Item Name="BaseElements.StartSignal1.Caption" Value="Yacht created" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />

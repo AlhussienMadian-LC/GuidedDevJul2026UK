@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Yacht rental (view)" />
+			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
+			<Item Name="Columns.UsrCustomer.Caption" Value="Customer" />
+			<Item Name="Columns.UsrId.Caption" Value="Id" />
+			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
+			<Item Name="Columns.UsrParentYacht.Caption" Value="Parent yacht" />
+			<Item Name="Columns.UsrRentalDays.Caption" Value="Rental days" />
+			<Item Name="Columns.UsrRentalEnd.Caption" Value="Rental end" />
+			<Item Name="Columns.UsrRentalStart.Caption" Value="Rental start" />
+			<Item Name="Columns.UsrTotalPriceEUR.Caption" Value="Total price, EUR" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>

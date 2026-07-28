@@ -4,7 +4,8 @@
 		<Items>
 			<Item Name="Caption" Value="Yacht form page" />
 			<Item Name="LocalizableStrings.Button_ihciv7q_caption.Value" Value="Actions" />
-			<Item Name="LocalizableStrings.ExpansionPanel_6x0yj77_title.Value" Value="Yacht rental" />
+			<Item Name="LocalizableStrings.ExpansionPanel_6x0yj77_title.Value" Value="Yacht rental (view)" />
+			<Item Name="LocalizableStrings.GenerateRentalsMenuItem_caption.Value" Value="Generate rentals" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_ahn1sm1_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_nbq2boo_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_292783x_caption.Value" Value="Data import" />
@@ -14,7 +15,7 @@
 			<Item Name="LocalizableStrings.Input_br785jb_label.Value" Value="Manager's email" />
 			<Item Name="LocalizableStrings.MultiSelect_l6x4kaf_label.Value" Value="Categories" />
 			<Item Name="LocalizableStrings.PassengersCountCannotBeLess.Value" Value="Passengers count cannot be less than 2." />
-			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 200 EUR." />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 300 EUR." />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
 			<Item Name="LocalizableStrings.RunAvgProcessMenuItem_caption.Value" Value="Run average ticket price process" />
 			<Item Name="LocalizableStrings.RunAvgProcessMenuItem_notificationText.Value" Value="Process started YEAH!!!" />

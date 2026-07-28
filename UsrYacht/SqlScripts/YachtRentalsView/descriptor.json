@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "267da089-5fec-cc59-398d-34ffeeed3bb2",
+    "Name": "YachtRentalsView",
+    "DBEngineType": 0,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1785216382000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
