@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "7af7ff9f-9c97-438d-ae7b-7d7c32bfd96d",
     "Name": "UsrGenerateYachtRentals",
-    "ModifiedOnUtc": "\/Date(1785218839000)\/",
+    "ModifiedOnUtc": "\/Date(1785348265000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Generate yacht rentals"
+    "Caption": "Generate yacht rentals",
+    "DependsOn": []
   }
 }

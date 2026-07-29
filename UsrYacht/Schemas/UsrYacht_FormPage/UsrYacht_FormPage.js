@@ -610,7 +610,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"clicked": {
 						"request": "crt.CreateRecordRequest",
 						"params": {
-							"entityName": "UsrVwYachtRental",
+							"entityName": "UsrYachtRental",
 							"defaultValues": [
 								{
 									"attributeName": "UsrParentYacht",
@@ -699,7 +699,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"clicked": {
 						"request": "crt.ImportDataRequest",
 						"params": {
-							"entitySchemaName": "UsrVwYachtRental"
+							"entitySchemaName": "UsrYachtRental"
 						}
 					}
 				},
@@ -797,59 +797,53 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"_selectionOptions": {
 						"attribute": "GridDetail_xezmpo6_SelectionState"
 					},
-					"primaryColumnName": "GridDetail_xezmpo6DS_UsrId",
+					"primaryColumnName": "GridDetail_xezmpo6DS_Id",
 					"columns": [
 						{
-							"id": "49348d88-8a04-7bf4-08fc-9718ac92b865",
-							"code": "GridDetail_xezmpo6DS_UsrRentalStart",
-							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrRentalStart)#",
+							"id": "89cad092-8309-69ad-745b-f619242bd18e",
+							"code": "GridDetail_xezmpo6DS_UsrStartDate",
+							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrStartDate)#",
 							"dataValueType": 8,
-							"width": 178
+							"width": 160
 						},
 						{
-							"id": "fc5f2b72-9d53-1ce5-ffe3-2f82cd53e890",
-							"code": "GridDetail_xezmpo6DS_UsrRentalEnd",
-							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrRentalEnd)#",
+							"id": "2527a1ea-7b74-47ce-4c9f-99fcaa4a896e",
+							"code": "GridDetail_xezmpo6DS_UsrEndDate",
+							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrEndDate)#",
 							"dataValueType": 8,
-							"width": 152
+							"width": 134
 						},
 						{
-							"id": "a3d21248-e10d-cd6b-cbcb-0a4bdb31f34a",
+							"id": "93eb9844-d9c9-3a15-2e45-76c6962bef8d",
 							"code": "GridDetail_xezmpo6DS_UsrCustomer",
 							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrCustomer)#",
 							"dataValueType": 10,
-							"width": 163
+							"width": 137
 						},
 						{
-							"id": "052fc8f7-ca2b-b23c-c1b1-55ea246baf11",
-							"code": "GridDetail_xezmpo6DS_UsrManager",
-							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrManager)#",
+							"id": "acea4137-2bad-4890-b532-587653a7b8fc",
+							"code": "GridDetail_xezmpo6DS_UsrParentYacht_UsrManager",
+							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrParentYacht_UsrManager)#",
 							"dataValueType": 10,
-							"width": 168
+							"width": 139
 						},
 						{
-							"id": "aed43adb-bf72-3a26-807d-77e122a02a51",
-							"code": "GridDetail_xezmpo6DS_UsrRentalDays",
-							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrRentalDays)#",
-							"dataValueType": 4,
-							"width": 138
+							"id": "ad58cd94-5de9-a8df-f772-40867e8f689f",
+							"code": "GridDetail_xezmpo6DS_UsrTotalPrice",
+							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrTotalPrice)#",
+							"dataValueType": 32
 						},
 						{
-							"id": "441548b2-5ec4-85dd-e425-1fdd630de7c5",
-							"code": "GridDetail_xezmpo6DS_UsrTotalPriceEUR",
-							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrTotalPriceEUR)#",
-							"dataValueType": 32,
-							"width": 172
-						},
-						{
-							"id": "cafbad64-fa6d-c24f-790b-d4df6bb0a987",
+							"id": "81a4ac08-350b-51fc-d657-f98b30f9461c",
 							"code": "GridDetail_xezmpo6DS_UsrComment",
 							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrComment)#",
 							"dataValueType": 28
 						}
 					],
 					"placeholder": false,
-					"bulkActions": []
+					"bulkActions": [],
+					"visible": true,
+					"fitContent": true
 				},
 				"parentName": "GridContainer_mi4hg64",
 				"propertyName": "items",
@@ -1127,14 +1121,14 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 						},
 						"viewModelConfig": {
 							"attributes": {
-								"GridDetail_xezmpo6DS_UsrRentalStart": {
+								"GridDetail_xezmpo6DS_UsrStartDate": {
 									"modelConfig": {
-										"path": "GridDetail_xezmpo6DS.UsrRentalStart"
+										"path": "GridDetail_xezmpo6DS.UsrStartDate"
 									}
 								},
-								"GridDetail_xezmpo6DS_UsrRentalEnd": {
+								"GridDetail_xezmpo6DS_UsrEndDate": {
 									"modelConfig": {
-										"path": "GridDetail_xezmpo6DS.UsrRentalEnd"
+										"path": "GridDetail_xezmpo6DS.UsrEndDate"
 									}
 								},
 								"GridDetail_xezmpo6DS_UsrCustomer": {
@@ -1142,19 +1136,14 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 										"path": "GridDetail_xezmpo6DS.UsrCustomer"
 									}
 								},
-								"GridDetail_xezmpo6DS_UsrManager": {
+								"GridDetail_xezmpo6DS_UsrParentYacht_UsrManager": {
 									"modelConfig": {
-										"path": "GridDetail_xezmpo6DS.UsrManager"
+										"path": "GridDetail_xezmpo6DS.UsrParentYacht_UsrManager"
 									}
 								},
-								"GridDetail_xezmpo6DS_UsrRentalDays": {
+								"GridDetail_xezmpo6DS_UsrTotalPrice": {
 									"modelConfig": {
-										"path": "GridDetail_xezmpo6DS.UsrRentalDays"
-									}
-								},
-								"GridDetail_xezmpo6DS_UsrTotalPriceEUR": {
-									"modelConfig": {
-										"path": "GridDetail_xezmpo6DS.UsrTotalPriceEUR"
+										"path": "GridDetail_xezmpo6DS.UsrTotalPrice"
 									}
 								},
 								"GridDetail_xezmpo6DS_UsrComment": {
@@ -1162,9 +1151,9 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 										"path": "GridDetail_xezmpo6DS.UsrComment"
 									}
 								},
-								"GridDetail_xezmpo6DS_UsrId": {
+								"GridDetail_xezmpo6DS_Id": {
 									"modelConfig": {
-										"path": "GridDetail_xezmpo6DS.UsrId"
+										"path": "GridDetail_xezmpo6DS.Id"
 									}
 								}
 							}
@@ -1239,25 +1228,23 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 						"type": "crt.EntityDataSource",
 						"scope": "viewElement",
 						"config": {
-							"entitySchemaName": "UsrVwYachtRental",
+							"entitySchemaName": "UsrYachtRental",
 							"attributes": {
-								"UsrRentalStart": {
-									"path": "UsrRentalStart"
+								"UsrStartDate": {
+									"path": "UsrStartDate"
 								},
-								"UsrRentalEnd": {
-									"path": "UsrRentalEnd"
+								"UsrEndDate": {
+									"path": "UsrEndDate"
 								},
 								"UsrCustomer": {
 									"path": "UsrCustomer"
 								},
-								"UsrManager": {
-									"path": "UsrManager"
+								"UsrParentYacht_UsrManager": {
+									"type": "ForwardReference",
+									"path": "UsrParentYacht.UsrManager"
 								},
-								"UsrRentalDays": {
-									"path": "UsrRentalDays"
-								},
-								"UsrTotalPriceEUR": {
-									"path": "UsrTotalPriceEUR"
+								"UsrTotalPrice": {
+									"path": "UsrTotalPrice"
 								},
 								"UsrComment": {
 									"path": "UsrComment"

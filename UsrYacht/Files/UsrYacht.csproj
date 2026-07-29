@@ -606,6 +606,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="SMPageRefresh">
+			<HintPath>$(RelativePkgFolderPath)/SMPageRefresh/$(StandalonePackageAssemblyPath)/SMPageRefresh.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="SsoSettings">
 			<HintPath>$(RelativePkgFolderPath)/SsoSettings/$(StandalonePackageAssemblyPath)/SsoSettings.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>

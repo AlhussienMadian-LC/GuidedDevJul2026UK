@@ -8,6 +8,7 @@
 			<Item Name="Columns.UsrEndDate.Caption" Value="End date" />
 			<Item Name="Columns.UsrParentYacht.Caption" Value="Parent yacht" />
 			<Item Name="Columns.UsrStartDate.Caption" Value="Start date" />
+			<Item Name="Columns.UsrTotalPrice.Caption" Value="Total price, EUR" />
 		</Items>
 	</Group>
 </Resources>

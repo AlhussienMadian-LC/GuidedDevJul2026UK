@@ -82,6 +82,14 @@
   "E17": "UsrParentYachtId",
   "E18": "UsrParentYachtUsrName"
 }
++ MetaData.Schema.D2 {
+  "UId": "e1cecb90-acb2-1530-1024-5f96781509c1",
+  "A2": "UsrTotalPrice",
+  "A3": "751c3a94-39b1-4e06-a211-f55a009a4098",
+  "A4": "751c3a94-39b1-4e06-a211-f55a009a4098",
+  "A5": "cfe25972-b16f-4192-b615-874ce37ae6bd",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -93,7 +101,8 @@
   "bfe68d99-0251-0a43-2728-8aa6c7cecdf8",
   "4c02a63a-ba49-d5df-d270-17ef56ed1465",
   "47285fdb-7a0b-2b25-3534-127892748533",
-  "9d7a865d-0acb-4489-01b2-e24143fe194d"
+  "9d7a865d-0acb-4489-01b2-e24143fe194d",
+  "e1cecb90-acb2-1530-1024-5f96781509c1"
 ]
 = MetaData.Schema.D20.A2 "UsrYachtRentalEvents"
 + MetaData.Schema.D20.FA1 false

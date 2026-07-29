@@ -11,15 +11,23 @@
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Set column values" />
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Created record Id" />
-			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="N &lt; 15" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="N &lt; 5" />
 			<Item Name="BaseElements.FormulaTask1.Caption" Value="N = N + 1" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="Calc Increment" />
+			<Item Name="BaseElements.ScriptTask2.Caption" Value="Generate no between 1 and 6" />
+			<Item Name="BaseElements.StartEvent1.Caption" Value="Start" />
+			<Item Name="BaseElements.TerminateEvent1.Caption" Value="End" />
 			<Item Name="Caption" Value="Generate yacht rentals" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.Inc.Caption" Value="Inc" />
+			<Item Name="Parameters.Inc.DisplayValue" Value="10" />
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="N" />
-			<Item Name="Parameters.ProcessSchemaParameter1.DisplayValue" Value="10" />
+			<Item Name="Parameters.ProcessSchemaParameter1.DisplayValue" Value="0" />
+			<Item Name="Parameters.Rand.Caption" Value="Rand" />
+			<Item Name="Parameters.Rand.DisplayValue" Value="2" />
 			<Item Name="Parameters.YachtId.Caption" Value="Yacht Id" />
 		</Items>
 	</Group>
