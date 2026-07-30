@@ -57,7 +57,7 @@
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Type of result" />
 			<Item Name="BaseElements.ScriptTask1.Caption" Value="Diff Dates" />
-			<Item Name="BaseElements.StartSignal1.Caption" Value="Start" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Start on add" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />
 			<Item Name="BaseElements.TerminateEvent1.Caption" Value="End" />
 			<Item Name="Caption" Value="Auto calc total price" />

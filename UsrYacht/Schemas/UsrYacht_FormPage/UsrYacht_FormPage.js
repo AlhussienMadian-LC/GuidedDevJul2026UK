@@ -511,6 +511,28 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 			},
 			{
 				"operation": "insert",
+				"name": "NumberInput_nv0ify6",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 6,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrCrewCount_3mpvypl",
+					"control": "$PDS_UsrCrewCount_3mpvypl",
+					"readonly": false,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": ""
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
 				"name": "MultiSelect_l6x4kaf",
 				"values": {
 					"type": "crt.MultiSelect",
@@ -804,34 +826,35 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 							"code": "GridDetail_xezmpo6DS_UsrStartDate",
 							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrStartDate)#",
 							"dataValueType": 8,
-							"width": 160
+							"width": 139
 						},
 						{
 							"id": "2527a1ea-7b74-47ce-4c9f-99fcaa4a896e",
 							"code": "GridDetail_xezmpo6DS_UsrEndDate",
 							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrEndDate)#",
 							"dataValueType": 8,
-							"width": 134
+							"width": 130
 						},
 						{
 							"id": "93eb9844-d9c9-3a15-2e45-76c6962bef8d",
 							"code": "GridDetail_xezmpo6DS_UsrCustomer",
 							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrCustomer)#",
 							"dataValueType": 10,
-							"width": 137
+							"width": 214
 						},
 						{
 							"id": "acea4137-2bad-4890-b532-587653a7b8fc",
 							"code": "GridDetail_xezmpo6DS_UsrParentYacht_UsrManager",
 							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrParentYacht_UsrManager)#",
 							"dataValueType": 10,
-							"width": 139
+							"width": 175
 						},
 						{
 							"id": "ad58cd94-5de9-a8df-f772-40867e8f689f",
 							"code": "GridDetail_xezmpo6DS_UsrTotalPrice",
 							"caption": "#ResourceString(GridDetail_xezmpo6DS_UsrTotalPrice)#",
-							"dataValueType": 32
+							"dataValueType": 32,
+							"width": 156
 						},
 						{
 							"id": "81a4ac08-350b-51fc-d657-f98b30f9461c",
@@ -1174,6 +1197,11 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 						"modelConfig": {
 							"path": "PDS.UsrCaptain"
 						}
+					},
+					"PDS_UsrCrewCount_3mpvypl": {
+						"modelConfig": {
+							"path": "PDS.UsrCrewCount"
+						}
 					}
 				}
 			},
@@ -1339,7 +1367,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					return function (control) {
 						let value = control.value;
 						let minValue = config.minValue;
-						let valueIsCorrect = value >= minValue;
+						let valueIsCorrect = value > minValue;
 						var result;
 						if (valueIsCorrect) {
 							result = null;
