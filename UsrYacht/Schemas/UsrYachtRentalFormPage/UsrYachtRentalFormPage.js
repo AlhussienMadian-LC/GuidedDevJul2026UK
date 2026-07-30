@@ -58,12 +58,35 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 			},
 			{
 				"operation": "insert",
-				"name": "ComboBox_ew4oo9t",
+				"name": "NumberInput_93t6h5y",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
 						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.UsrYachtRentalDS_UsrTotalPrice_ocanj2u",
+					"control": "$UsrYachtRentalDS_UsrTotalPrice_ocanj2u",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "above",
+					"tooltip": "",
+					"visible": true
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_ew4oo9t",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 4,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -79,7 +102,7 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -105,7 +128,7 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 4,
+						"row": 5,
 						"rowSpan": 1
 					},
 					"type": "crt.Input",
@@ -119,7 +142,7 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -160,6 +183,11 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 					"UsrYachtRentalDS_UsrComment_tbz8rz0": {
 						"modelConfig": {
 							"path": "UsrYachtRentalDS.UsrComment"
+						}
+					},
+					"UsrYachtRentalDS_UsrTotalPrice_ocanj2u": {
+						"modelConfig": {
+							"path": "UsrYachtRentalDS.UsrTotalPrice"
 						}
 					}
 				}

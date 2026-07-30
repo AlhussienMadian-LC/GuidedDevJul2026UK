@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UsrYacht")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+697039c0212dc526465faccbbfb85267a8713307")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80e6fe06cafb63f7553e74a0f319f76afcf57051")]
 [assembly: System.Reflection.AssemblyProductAttribute("UsrYacht")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UsrYacht")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
